@@ -1,0 +1,12 @@
+*.pyc
+
+configs/dukemtmc
+configs/market1501
+datasets/
+output/
+tools/dukemtmc
+tools/market1501
+vitaa/data/datasets/dukemtmc.py
+vitaa/data/datasets/market1501.py
+vitaa/data/datasets/evaluation/dukemtmc.py
+vitaa/data/datasets/evaluation/market1501.py

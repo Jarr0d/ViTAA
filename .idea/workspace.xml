@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60e505d8-d3f7-41db-b7ca-208b76b4f6e1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/person_search_by_language$distributed.coverage" NAME="distributed Coverage Results" MODIFIED="1560994999229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/person_search_by_language$train_net.coverage" NAME="train_net Coverage Results" MODIFIED="1583035290444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/person_search_by_language$convert_to_json.coverage" NAME="convert_to_json Coverage Results" MODIFIED="1583221257779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/person_search_by_language$json.coverage" NAME="json Coverage Results" MODIFIED="1583115786832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/person_search_by_language$test_net.coverage" NAME="test_net Coverage Results" MODIFIED="1584055140676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/person_search_by_language$preprocess.coverage" NAME="test_net Coverage Results" MODIFIED="1561665056940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/person_search_by_language$eval.coverage" NAME="eval Coverage Results" MODIFIED="1563920036528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gUkJaF4zaSvawhxgeU5coH4V0Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Python.json">
+    <configuration name="json" type="PythonConfigurationType" factoryName="Python">
+      <module name="person-search-by-language" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/pytorch11/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/cuhkpedes/convert_to_json.py" />
+      <option name="PARAMETERS" value="--datadir $PROJECT_DIR$/../../datasets/cuhk-pedes --outdir datasets/cuhkpedes/annotations" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_net" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="person-search-by-language" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/pytorch11/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/test_net.py" />
+      <option name="PARAMETERS" value="--config-file configs/cuhkpedes/bilstm_r50_seg.yaml --checkpoint-file output/cuhkpedes/seg-id-mask-glo_10_40-attr_10_40/epoch_60.pth" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_net" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="person-search-by-language" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/pytorch11/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/train_net.py" />
+      <option name="PARAMETERS" value="--config-file configs/cuhkpedes/bilstm_r50_seg.yaml --resume-from output/cuhkpedes/seg-id-mask-glo_10_40-attr_10_40/epoch_65.pth" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.json" />
+      <item itemvalue="Python.test_net" />
+      <item itemvalue="Python.train_net" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60e505d8-d3f7-41db-b7ca-208b76b4f6e1" name="Default Changelist" comment="" />
+      <created>1560814080583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560814080583</updated>
+      <workItem from="1560814081962" duration="58322000" />
+      <workItem from="1561065010331" duration="116952000" />
+      <workItem from="1562104756081" duration="3222000" />
+      <workItem from="1562618353266" duration="145474000" />
+      <workItem from="1564117643697" duration="53000" />
+      <workItem from="1564127164102" duration="18530000" />
+      <workItem from="1565989212601" duration="2830000" />
+      <workItem from="1566498626331" duration="935000" />
+      <workItem from="1567210985387" duration="642000" />
+      <workItem from="1567287846559" duration="234000" />
+      <workItem from="1567986289461" duration="2468000" />
+      <workItem from="1568072668669" duration="2292000" />
+      <workItem from="1568082817487" duration="33585000" />
+      <workItem from="1568755385842" duration="61791000" />
+      <workItem from="1569261694825" duration="13568000" />
+      <workItem from="1569450516083" duration="6194000" />
+      <workItem from="1569617709614" duration="36715000" />
+      <workItem from="1570233292818" duration="94155000" />
+      <workItem from="1570764283617" duration="28234000" />
+      <workItem from="1571896198445" duration="88881000" />
+      <workItem from="1572841202205" duration="2653000" />
+      <workItem from="1572854615500" duration="102560000" />
+      <workItem from="1574190523694" duration="10411000" />
+      <workItem from="1576538069448" duration="632000" />
+      <workItem from="1576788810909" duration="18475000" />
+      <workItem from="1577166249721" duration="18795000" />
+      <workItem from="1577739155735" duration="4616000" />
+      <workItem from="1577756099094" duration="7895000" />
+      <workItem from="1579833271976" duration="39338000" />
+      <workItem from="1580509477773" duration="14451000" />
+      <workItem from="1581376247425" duration="14674000" />
+      <workItem from="1581579053418" duration="25323000" />
+      <workItem from="1581975193619" duration="60278000" />
+      <workItem from="1582741959301" duration="78433000" />
+      <workItem from="1583702357804" duration="5890000" />
+      <workItem from="1584137562836" duration="1651000" />
+      <workItem from="1598176488947" duration="3196000" />
+      <workItem from="1598179895931" duration="7513000" />
+      <workItem from="1598187490375" duration="1983000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2349" y="471" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598186811530">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state x="2349" y="471" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.3773.1573@67.27.3773.1573" timestamp="1598186811530" />
+    <state x="2674" y="571" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598180769550">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state x="2674" y="571" width="424" height="484" key="FileChooserDialogImpl/67.27.3773.1573@67.27.3773.1573" timestamp="1598180769550" />
+    <state width="1841" height="575" key="GridCell.Tab.0.bottom" timestamp="1598187465280">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state width="1841" height="575" key="GridCell.Tab.0.bottom/67.27.3773.1573@67.27.3773.1573" timestamp="1598187465280" />
+    <state width="1841" height="575" key="GridCell.Tab.0.center" timestamp="1598187465280">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state width="1841" height="575" key="GridCell.Tab.0.center/67.27.3773.1573@67.27.3773.1573" timestamp="1598187465280" />
+    <state width="1841" height="575" key="GridCell.Tab.0.left" timestamp="1598187465280">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state width="1841" height="575" key="GridCell.Tab.0.left/67.27.3773.1573@67.27.3773.1573" timestamp="1598187465280" />
+    <state width="1841" height="575" key="GridCell.Tab.0.right" timestamp="1598187465280">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state width="1841" height="575" key="GridCell.Tab.0.right/67.27.3773.1573@67.27.3773.1573" timestamp="1598187465280" />
+    <state width="1841" height="575" key="GridCell.Tab.1.bottom" timestamp="1598187465280">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state width="1841" height="575" key="GridCell.Tab.1.bottom/67.27.3773.1573@67.27.3773.1573" timestamp="1598187465280" />
+    <state width="1841" height="575" key="GridCell.Tab.1.center" timestamp="1598187465280">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state width="1841" height="575" key="GridCell.Tab.1.center/67.27.3773.1573@67.27.3773.1573" timestamp="1598187465280" />
+    <state width="1841" height="575" key="GridCell.Tab.1.left" timestamp="1598187465280">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state width="1841" height="575" key="GridCell.Tab.1.left/67.27.3773.1573@67.27.3773.1573" timestamp="1598187465280" />
+    <state width="1841" height="575" key="GridCell.Tab.1.right" timestamp="1598187465280">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state width="1841" height="575" key="GridCell.Tab.1.right/67.27.3773.1573@67.27.3773.1573" timestamp="1598187465280" />
+    <state x="2380" y="448" key="SettingsEditor" timestamp="1598187510941">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state x="2380" y="448" key="SettingsEditor/67.27.3773.1573@67.27.3773.1573" timestamp="1598187510941" />
+    <state x="2581" y="552" width="620" height="522" key="find.popup" timestamp="1598178182649">
+      <screen x="67" y="27" width="3773" height="1573" />
+    </state>
+    <state x="2581" y="552" width="620" height="522" key="find.popup/67.27.3773.1573@67.27.3773.1573" timestamp="1598178182649" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/res_head.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/res_head.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/datasets/widerchallenge2019/eval.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/widerchallenge2019/convert_to_json.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/res_head/res_head.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/loss.py</url>
+          <line>298</line>
+          <option name="timeStamp" value="826" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/loss.py</url>
+          <line>275</line>
+          <option name="timeStamp" value="853" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/loss.py</url>
+          <line>269</line>
+          <option name="timeStamp" value="854" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/loss.py</url>
+          <line>206</line>
+          <option name="timeStamp" value="875" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/loss.py</url>
+          <line>233</line>
+          <option name="timeStamp" value="879" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/models/embeddings/seg_head/seg_head.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="953" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vitaa/data/datasets/evaluation/market1501.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="1006" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/market1501/convert_to_json.py</url>
+          <line>219</line>
+          <option name="timeStamp" value="1008" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ViTAA$train_net.coverage" NAME="train_net Coverage Results" MODIFIED="1598180240837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ViTAA$test_net.coverage" NAME="test_net Coverage Results" MODIFIED="1598180507051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ViTAA$json.coverage" NAME="json Coverage Results" MODIFIED="1598186885609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
