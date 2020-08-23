@@ -35,7 +35,7 @@ We provide the code for reproducing experiment results of ViTAA
 2. Download text_attribute_graph ([GoogleDrive](https://drive.google.com/file/d/1Sqm3V97hbqK9GxIwshZejJWLARfu5o1s/view?usp=sharing)
 / [BaiduYun(code: vbss)](https://pan.baidu.com/s/1TIX4lbvZmGwbBNHcRyA1ng)) which are the text phrases parsed from the sentences, and save it in (e.g. ~/datasets/cuhkpedes/).
 3. Use the provided [Human Parsing Network](https://github.com/Jarr0d/Human-Parsing-Network) to generate the attribute segmentations, and save it in (e.g. ~/datasets/cuhkpedes/).
-4. Run the script in [tools/cuhkpedes/convert_to_json]() to generate the json files as annotations.
+4. Run the script in [tools/cuhkpedes/convert_to_json](https://github.com/Jarr0d/ViTAA/blob/master/tools/cuhkpedes/convert_to_json.py) to generate the json files as annotations.
 ```shell
 python tools/cuhkpedes/convert_to_json.py --datadir ~/datasets/cuhkpedes/ --outdir datasets/cuhkpedes/annotations
 ```
