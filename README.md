@@ -27,7 +27,7 @@ We provide the code for reproducing experiment results of ViTAA
 |  CMPM+CMPC  |      global      | 49.37 |   -   |  79.27 | 
 |     MIA     |   global+region  | 53.10 | 75.00 |  82.90 |
 |     GALM    |  global+keypoint | 54.12 | 75.45 |  82.97 |
-|  **ViTAA**  | global+attribute | 55.97 | 75.84 |  83.52 |
+|  **ViTAA**  | global+attribute | **55.97** | **75.84** |  **83.52** |
 
 
 ## Data preparation
