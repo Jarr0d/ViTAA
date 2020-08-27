@@ -2,8 +2,8 @@
 
 configs/dukemtmc
 configs/market1501
-datasets/
-output/
+./datasets/
+./output/
 tools/dukemtmc
 tools/market1501
 vitaa/data/datasets/dukemtmc.py
